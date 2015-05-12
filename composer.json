@@ -1,0 +1,14 @@
+{
+    "name": "adduc/memoize-apc",
+    "description": "Memoize functionality backed by APC cache.",
+    "license": "MIT",
+    "require": {
+        "dominionenterprises/memoize": "~0.1",
+        "ext-apc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adduc\\Memoize\\": "src"
+        }
+    }
+}
