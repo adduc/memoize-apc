@@ -1,3 +1,8 @@
+<!--
+    This library requires APC to be enabled via the command line. APC is
+    not set to run via CLI by default. You may need to run ./run-tests.sh
+    to configure APC prior to running PHPUnit.
+-->
 <phpunit bootstrap="tests/bootstrap.php">
     <testsuite>
         <directory>./tests</directory>
